@@ -34,3 +34,12 @@
 
 // 3-
 
+let numero;
+numero = prompt("Elige un numero");
+
+if (numero % 2 == 0){
+        document.write("es par");
+    }
+    else{
+        document.write("es impar");
+    }
