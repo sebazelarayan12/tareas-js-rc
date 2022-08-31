@@ -34,12 +34,33 @@
 
 // 3-
 
-let numero;
-numero = prompt("Elige un numero");
+// let numero;
+// numero = prompt("Elige un numero");
 
-if (numero % 2 == 0){
-        document.write("es par");
+// if (numero % 2 == 0){
+//         document.write("es par");
+//     }
+//     else{
+//         document.write("es impar");
+//     }
+
+// 4-
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+sumaDados = [];
+
+function lanzarDados(){
+    for(let i=0; i<50 ; i++){
+    let dado1 = getRandomIntInclusive(1, 6);
+    let dado2 = getRandomIntInclusive(1, 6);
+    let suma = dado1 + dado2;
+    sumaDados.push(suma);
     }
-    else{
-        document.write("es impar");
-    }
+    document.write(sumaDados);
+}
+
