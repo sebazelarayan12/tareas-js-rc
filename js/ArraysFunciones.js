@@ -46,21 +46,21 @@
 
 // 4-
 
-function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1) + min);
-  }
+// function getRandomIntInclusive(min, max) {
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min + 1) + min);
+//   }
 
-sumaDados = [];
+// sumaDados = [];
 
-function lanzarDados(){
-    for(let i=0; i<50 ; i++){
-    let dado1 = getRandomIntInclusive(1, 6);
-    let dado2 = getRandomIntInclusive(1, 6);
-    let suma = dado1 + dado2;
-    sumaDados.push(suma);
-    }
-    document.write(sumaDados);
-}
+// function lanzarDados(){
+//     for(let i=0; i<50 ; i++){
+//     let dado1 = getRandomIntInclusive(1, 6);
+//     let dado2 = getRandomIntInclusive(1, 6);
+//     let suma = dado1 + dado2;
+//     sumaDados.push(suma);
+//     }
+//     document.write(sumaDados);
+// }
 

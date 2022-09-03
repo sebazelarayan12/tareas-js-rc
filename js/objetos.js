@@ -97,9 +97,15 @@ class Persona {
     //     this.dni = getRandomIntInclusive(10000000, 99999999);
     // }
 
-//     mostrarDatos(){
-//         console.log(`${this.¿?}`)
-//     }
+    mostrarDatos(){
+        console.log(`Nombre: ${this.nombre}
+    Edad: ${this.edad}
+    DNI: ${this.dni}
+    Genero: ${this.sexo}
+    Peso: ${this.peso} Kg
+    Altura: ${this.altura} Cm
+    Año de nacimiento: ${this.aniodenac}`)
+    }
 }
 
-let jorge = new Persona("jorge", 16, 123, "H", 78, 156, 1999);
+let jorge = new Persona("jorge", 16, 0, "H", 78, 156, 1999);
